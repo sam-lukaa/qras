@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #374151;
+  font-family: 'Satoshi', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 3rem;
+  font-size: 2.75rem;
+  letter-spacing: -0.055rem;
+}
+
+h2 {
+  font-weight: 900;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: -0.05rem;
+}
+
+h4 {
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.03rem;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.025rem;
+}
+
+.modal {
+  background: linear-gradient(
+    180deg,
+    #c7e1ff 2.08%,
+    #fff 36.05%,
+    #fff 51.89%,
+    #fff 99.48%
+  );
+}
